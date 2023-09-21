@@ -1,0 +1,45 @@
+/* Lo hacemos responsive:  */
+
+/*Vista tablet*/
+/*768px hasta 1023px*/
+
+@media (max-width:1023px) {
+    /*Header*/
+
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .encabezado .boton {
+        display: none;
+    }
+
+
+    /*Footer*/
+
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .formContacto {
+        width: 80vw;
+    }
+}
+
+/*Ajustes específicos para la vista móvil*/
+/*0 hasta 768px*/
+
+@media (max-width:768px) {
+    /*Destinos */
+
+    .contenedorBuzos {
+        grid-template-columns: 1fr;
+    }
+
+    .formContacto {
+        width: 95vw;
+    }
+}
